@@ -1,35 +1,123 @@
 body {
     margin: 0;
-    padding: 0;
+    padding: 50px 0px 0px 0px;
     z-index: 0;
-    font-family: 'Roboto', sans-serif;
-    font-size: 24;
+    font-family: 'DM Sans', sans-serif;
+    color: #868282;
 }
 
 .navbar {
     background-color: #3996D2;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 54px;
+    padding: .5rem 1rem;
 }
 
 .container {
     width: 100%;
-    max-width: 1000px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1140px;
     display: flex;
     align-items: center;
+}
+
+.container-navbar {
     justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
 }
 
 nav div div a {
     color: floralwhite;
     font-weight: normal;
     margin: 0px 15px 0px 15px;
+    font-size: 1.2em;
+}
+
+nav div div a:hover {
+    opacity: 50%;
 }
 
 .logo {
     width: 40px;
     height: 40px;
+}
+
+.two-col {
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    margin: 0px auto;
+    display: flex;
+}
+
+.personal-info {
+    /*  border-style: solid;
+    border-width: 1px; */
+    border-color: #3996D2;
+    flex: 1;
+    padding: 20px 40px;
+}
+
+.exp-info {
+    /*  border-style: solid;
+    border-width: 1px; */
+    border-color: #3996D2;
+    flex: 3;
+}
+
+.profile-pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    width: 190px;
+}
+
+.contact {
+    display: flex;
+    padding-left: 25px;
+}
+
+.text {
+    font-size: 1.3em;
+}
+
+.aboutme {
+    color: #212529;
+    font-weight: bold;
+}
+
+.social {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.contact p {
+    margin: 0px 10px 0px 10px;
+}
+
+.list {
+    padding-left: 0;
+}
+
+.icons {
+    margin-left: 3px;
+}
+
+li {
+    list-style-type: none;
+}
+
+i {
+    font-size: 25px;
+    color: #212529;
 }
