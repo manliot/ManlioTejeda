@@ -1,0 +1,94 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    z-index: 0;
+    font-family: 'DM Sans', sans-serif;
+    color: #868282;
+    font-size: 1.25rem;
+}
+
+li {
+    list-style-type: none;
+}
+
+i {
+    font-size: 1.7rem;
+    color: #333333;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    background-color: #161f3e;
+}
+
+.container {
+    padding: 50px 0px 0px 0px;
+    max-width: 1140px;
+    width: 100%;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: 1fr 2.7fr;
+    grid-template-rows: 1fr 2fr 2.6fr 1.68fr;
+    gap: 1rem;
+}
+
+.personal-info {
+    /* background-color: #fba33e; */
+    grid-row: 1/4;
+    padding-left: 1.5rem;
+}
+
+.personal-info-header {
+    display: flex;
+    justify-content: center;
+}
+
+.personal-info-header img {
+    border-radius: 50%;
+    width: 190px;
+}
+
+.personal-info-body {
+    margin-top: 1.5rem;
+}
+
+.aboutme {
+    color: #212529;
+    font-weight: bold;
+    padding: 1rem 0px 1.2rem 0px;
+}
+.contactame{
+    padding: 1rem 0px 1.2rem 0px;
+}
+.contact {
+    display: flex;
+    padding-left: 25px;
+}
+
+.social {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.pre-info {
+    background-color: #3f80c1;
+}
+
+.proy-info {
+    background-color: #ff1f;
+}
+
+.exp-info {
+    background-color: #3f80c1;
+}
+
+.edu-info {
+    background-color: #3996D2;
+    grid-column: 1/3;
+}
