@@ -24,11 +24,46 @@ a {
 }
 
 .navbar {
-    background-color: #161f3e;
+    background-color: #3996D2;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    padding: .5rem 1rem;
+}
+
+.container-navbar {
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1140px;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav div div a {
+    color: floralwhite;
+    font-weight: 500;
+    margin: 0px 15px 0px 15px;
+}
+
+nav div div a:hover {
+    opacity: 50%;
+}
+
+nav div div a i {
+    color: floralwhite;
+}
+
+.logo {
+    width: 45px;
+    height: 45px;
 }
 
 .container {
-    padding: 50px 0px 0px 0px;
+    padding: 100px 0px 50px 0px;
     max-width: 1140px;
     width: 100%;
     margin: 0px auto;
